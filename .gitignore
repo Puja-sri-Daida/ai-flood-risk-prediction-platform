@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Large downloaded datasets
+*.zip
+
+# Local backup files
+*.save
+*.save.*
+*_backup.py
+
+# OS/editor files
+.DS_Store
+*.swp
+
+# Local development backups
+app_before_*.py
+app_after_*.py
+.agents/
+
+# Original large HydroRIVERS dataset
+hydrorivers/
